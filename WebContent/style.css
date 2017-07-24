@@ -1,0 +1,28 @@
+.menu {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 1px;
+	width: 1000px;
+	height: 50px;
+	text-align: right;
+	float: center;
+	position: abosolute;
+}
+.menu-item {
+	background-color: grey;
+	padding: 5px 5px 5px 5px;
+	margin-right: 10px;
+	loat: right;
+}
+.menu-unten {
+	position: fixed;
+	bottom: 0;
+    height: 25px;
+    border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 1px;
+	width: 1000px;
+	text-align: left;
+}
