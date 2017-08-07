@@ -11,20 +11,31 @@
 <title>wir</title>
 </head>
 <body>
-<div class="navbar navbar-default">
+<div class="navbar navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 			<a class="navbar-brand" href="home.html"><i class="fa fa-home"></i> Home</a>
-		</div>
-		<ul class="nav  navbar-nav">
-				<li class="active"><a href="wir.html"><i class="fa fa-address-book-o"></i> Wir</a></li>
-				<li><a href="impressum.html"><i class="fa fa-file"></i> Impressum</a></li>
+			</div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+				<li><a href="wir.html"><i class="fa fa-address-book-o"></i> Wir</a></li>
+				<li class="active"><a href="impressum.html"><i class="fa fa-file"></i> Impressum</a></li>
 		</ul>
+		  <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+          </div>
 	</div>
 </div>
 <div class="container">
 	<div class="row">
- 		<div class="col-sm-2">
+ 		<div class="col-md-2">
  			<div class="blog-post">
  			 <ul class="nav nav-list bs-docs-sidenav">
           <li><a href="home.html"><i class="fa fa-home"></i> Home</a></li>
@@ -34,7 +45,7 @@
         </ul>
  			</div>
  		</div>
- 		<div class="col-sm-9">
+ 		<div class="col-md-9">
  			<div class="blog-post">
  			<h1>wir</h1>
 	<h2>Die Kreuzritter in den Kreuzzügen</h2>
@@ -48,9 +59,9 @@ magna aliquyam erat, sed diam voluptua.</p>
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-offset-2 col-sm-4">
+		<div class="col-md-offset-2 col-md-4">
 <a href="#"> <img class="image-size" alt="Gruppenfoto" src="img/Gruppenbild.jpg"></a> 
-<div class="col-sm-6">
+<div class="col-md-6">
 Namentlich genante <a href="https://de.wikipedia.org/wiki/Die_Kreuzritter">Kreuzritter</a>:
 <ul>
 	<li>Alfons von Brienne</li>
@@ -65,7 +76,7 @@ Namentlich genante <a href="https://de.wikipedia.org/wiki/Die_Kreuzritter">Kreuz
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-offset-2 col-sm-9">
+		<div class="col-md-offset-2 col-md-9">
 	<p >Na gut dann schreibe ich hier irgendwelchen Scheiss rein. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
 sanctus 
 est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
@@ -75,17 +86,15 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 		</div>
 	</div>
 </div>
-<div class="navbar navbar-default">
-	<div class="navbar-fixed-bottom">
-	  <div class="container">
-		<div class="navbar-header">
+<div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+	<div class="navbar-header">
 			<a class="navbar-brand" href="impressum.html"><i class="fa fa-file"></i> Impressum</a>
 		</div>
 		<ul class="nav  navbar-nav">
 				<li><a href="https://de.wikipedia.org/wiki/Copyright_law_(Vereinigte_Staaten)"><i class="fa fa-copyright"></i> Copyright</a></li>
 		</ul>
 	</div>
-</div>
 </div>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
