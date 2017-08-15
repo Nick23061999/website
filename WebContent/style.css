@@ -2,3 +2,6 @@
 	width: 500px;
 	hight: 375;
 }
+.sidebar {
+  display: none;
+}
